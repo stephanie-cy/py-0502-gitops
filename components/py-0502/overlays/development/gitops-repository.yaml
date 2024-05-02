@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: py-0502-gitops-repository
+spec:
+  url: https://github.com/stephanie-cy/py-0502-gitops
